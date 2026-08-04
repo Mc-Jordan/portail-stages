@@ -1,0 +1,25 @@
+# Backend (Maven)
+backend/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Frontend (Next.js)
+frontend/internship-portal-frontend/node_modules/
+frontend/internship-portal-frontend/.next/
+frontend/internship-portal-frontend/out/
+frontend/internship-portal-frontend/build/
+
+# IDE
+/.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded/generated documents (runtime data)
+uploads/
+backend/uploads/
